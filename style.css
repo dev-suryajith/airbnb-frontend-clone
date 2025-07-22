@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(248, 248, 248);
+}
+
+.row1 {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    margin-top: 5000px; /* probably for testing, remove in final version */
+}
+
+.head-ico {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.host-lang a {
+    text-decoration: none;
+    color: black;
+}
+.host-lang button {
+    text-decoration: none;
+    border: 0;
+    background-color: rgba(173, 216, 230, 0);
+    color: black;
+}
+
+.host-title {
+    font-weight: 700;
+    border-radius: 13px;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.host-title:hover {
+    background-color: lightgray;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-bar {
+    width: 850px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 55px;
+    border: 1px solid lightgray;
+    position: relative;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.where-search {
+    border: 0;
+    outline: 0;
+    width: 150px;
+    align-items: center;
+}
+
+.destinations {
+    border-radius: 30px;
+    width: 200px;
+    height: 55px;
+    transition: background-color 0.3s ease;
+}
+
+.dest-search {
+    font-size: 13px;
+    padding: 5px 24px;
+}
+
+.location-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 400px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    z-index: 1000;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+.location-box ul {
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+.location-box li {
+    font-size: 15px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 13px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#searchBTN {
+    background-color: #FF385C;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    transition: all .3s ease;
+}
+
+.location-box li:hover {
+    background-color: lightgray;
+}
+
+.destinations:focus-within .location-box {
+    display: block;
+    opacity: 1;
+}
+
+.destinations:focus-within input[type="date"] {
+    background-color: lightgrey;
+}
+
+.destinations:focus-within {
+    background-color: white;
+}
+
+.search-bar:focus-within {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar:focus-within #searchBTN {
+    width: 100px;
+    height: 45px;
+    border-radius: 55px;
+    transition: all .3s ease;
+}
+
+.search-bar:focus-within .check-in .check-out #check-in {
+    background-color: lightgray;
+}
+
+.dest-search input[type="date"] {
+    height: 30px;
+    outline: 0;
+    border: 0;
+    transition: background-color 0.3s ease;
+}
+
+.check-in:focus-within,
+.check-out:focus-within,
+.guests:focus-within {
+    background-color: #fff;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.language-box {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.language-box:hover {
+    background-color: #f5f5f5;
+    border-color: #ccc;
+}
+
+
+.menu {
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: -200px;
+    padding: 10px;
+    display: block;
+    background-color: white;
+    left: 0;
+    z-index: 100;
+    position: absolute;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #0000003d;
+}
+
+#menu-toggle:not(:checked) ~ .menu {
+    display: none;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px 0;
+}
