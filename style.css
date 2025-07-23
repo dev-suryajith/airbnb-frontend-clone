@@ -211,3 +211,240 @@ a {
     display: block;
     padding: 5px 0;
 }
+
+
+
+/* content */
+
+.popular-homes a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+}
+
+.card-title {
+    margin-left: -20px;
+    font-weight: 700;
+}
+
+.card-details{
+    margin-left: -20px;
+    margin-top: -5px;
+    font-size: 12px;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 0px;
+}
+
+.support-list, .hosting-list, .airbnb-list {
+    margin-left: 20px;
+}
+
+.support-list li,
+.hosting-list li,
+.airbnb-list li {
+    margin-top: 7px;
+    
+}
+.support-list a,
+.hosting-list a,
+.airbnb-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.support-list a:hover,
+.hosting-list a:hover,
+.airbnb-list a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.line {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    height: 1px;
+    background-color: rgba(143, 143, 143, 0.575);
+}
+
+.footer-bnb a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 15;
+}
+
+/* Media Queries for max-width: 992px (Tablets and smaller screens) */
+@media (max-width: 992px) {
+    
+    /* Header adjustments */
+    .header {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    /* Navigation row - stack vertically on smaller screens */
+    .row1 {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        margin-top: 0; /* Remove the 5000px margin for testing */
+    }
+    
+    .row1 .col-4 {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    /* Logo section */
+    .logo {
+        order: 1;
+        margin-bottom: 10px;
+    }
+    
+    /* Search icons section */
+    .search-icos {
+        order: 2;
+        justify-content: center !important;
+        margin-bottom: 10px;
+    }
+    
+    /* Host and language section */
+    .host-lang {
+        order: 3;
+        justify-content: center !important;
+    }
+    
+    /* Search bar adjustments */
+    .search-bar {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        min-height: 55px;
+        flex-direction: column;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    
+    /* Search bar sections - stack vertically */
+    .destinations,
+    .check-in,
+    .check-out,
+    .guests {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 8px;
+        border: 1px solid #ddd;
+    }
+    
+    .where-search {
+        width: 100%;
+    }
+    
+    /* Search button adjustments */
+    #searchBTN {
+        width: 100%;
+        height: 45px;
+        border-radius: 10px;
+        margin: 10px 0 0 0;
+    }
+    
+    .search-bar:focus-within #searchBTN {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    /* Location dropdown adjustments */
+    .location-box {
+        width: 100%;
+        position: static;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Menu adjustments */
+    .menu {
+        width: 200px;
+        margin-left: -150px;
+    }
+    
+    /* Content section adjustments */
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* Cards container - adjust for smaller screens */
+    .cards {
+        justify-content: center !important;
+        gap: 15px;
+    }
+    
+    .card {
+        width: calc(50% - 10px) !important;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+    
+    /* Popular homes titles */
+    .popular-homes a {
+        font-size: 18px;
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+    /* Footer adjustments */
+    footer {
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    footer .d-flex:first-child {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    footer .d-flex:first-child > div {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .support-list,
+    .hosting-list,
+    .airbnb-list {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    /* Footer bottom section */
+    footer .d-flex:last-child {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .footer-bnb,
+    .footer-bnb + div {
+        margin: 0 !important;
+        text-align: center;
+    }
+    
+    /* Modal adjustments */
+    .modal-dialog {
+        margin: 10px;
+    }
+    
+    .modal-body .col-6 {
+        width: 50%;
+    }
+    
+    .modal-body .col-md-3 {
+        width: 50%;
+    }
+}
+
