@@ -4,6 +4,9 @@
     font-family: "Nunito", sans-serif;
     box-sizing: border-box;
 }
+body {
+    overflow: hidden;
+}
 
 .header {
     width: 100%;
