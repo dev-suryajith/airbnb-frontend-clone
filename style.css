@@ -334,6 +334,10 @@ footer {
         border-radius: 15px;
         padding: 10px;
     }
+    .destinations:focus-within .location-box {
+        display: hidden;
+        opacity: 1;
+    }
     
     /* Search bar sections - stack vertically */
     .destinations,
@@ -363,12 +367,15 @@ footer {
         border-radius: 10px;
     }
     
-    /* Location dropdown adjustments */
+    
     .location-box {
         width: 100%;
+        visibility: hidden;
         position: static;
         margin-top: 10px;
+        z-index: 999;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: none;
     }
     
     /* Menu adjustments */
