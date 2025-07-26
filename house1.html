@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./media/favicon.jpg" type="image/x-icon">
+    <title>Cozy Penthouse-Style 1 BHK</title>
+    <link rel="stylesheet" href="house1.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+        </script>
+
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container">
+        <nav class="row d-flex align-items-center pt-3">
+            <div class="col logo">
+                <img width="102" height="32" src="./media/airbnb-2.png" alt="">
+            </div>
+
+            <div class="col d-flex gap-5 align-items-center search-icos pt-2">
+                <div class="searchBar d-flex justify-content-between">
+                    <div><img class="me-2" height="26" src="./media/house.png" alt=""> Anywhere | Any week | Add guests
+                    </div>
+                    <button type="submit" id="searchBTN2"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <div class="col d-flex gap-3 justify-content-end align-items-center host-lang">
+                <div class="host-title align-items-center"><a href="">Become a host</a></div>
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="d-flex gap-5 justify-content-center align-items-center head-ico">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa-solid fa-earth-asia"></i></button>
+                    </div>
+                    <div class="d-flex gap-5 justify-content-center align-items-center head-ico position-relative">
+                        <!-- Wrapper for checkbox and menu -->
+                        <div class="menu-wrapper position-relative">
+                            <input class="d-none " type="checkbox" id="menu-toggle">
+                            <label for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+
+                            <!-- menu (MUST be sibling of input) -->
+                            <div class="menu">
+                                <div class="row"><a href="#">Help</a></div>
+                                <div class="row"><a href="#">Become a host</a></div>
+                                <div class="row">
+                                    <a href="#">Refer a host</a>
+                                    <a href="#">Find a co-host</a>
+                                </div>
+                                <div class="row"><a href="#">Log in or sign up</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Title -->
+    <div class="container mt-4">
+        <h1 class="fw-bold">Cozy Penthouse-Style 1 BHK</h1>
+        <p class="text-muted">Bengaluru, India</p>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="container my-4">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <img src="./media/house1/main.jpg" class="img-fluid rounded" alt="Main View">
+            </div>
+            <div class="col-md-6">
+                <div class="row g-2">
+                    <div class="col-6"><img src="./media/house1/row1.jpg" class="img-fluid rounded" alt=""></div>
+                    <div class="col-6"><img src="./media/house1/row-1-left.jpg" height="203px" width="100%" class="rounded" alt=""></div>
+                    <div class="col-6"><img src="./media/house1/row2.jpg" class="img-fluid rounded" alt=""></div>
+                    <div class="col-6"><img src="./media/house1/row-2-left.jpg" height="203px" width="100%" class="rounded" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Room Info & Booking -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h4 class="fw-bold">Entire rental unit hosted by Rahul</h4>
+                <p>2 guests · 1 bedroom · 2 bed · 1 bathroom</p>
+
+                <hr>
+
+                <h5 class="fw-bold mb-3">About this place</h5>
+                <p>This cozy penthouse-style apartment offers a tranquil city view, perfect for couples or solo
+                    travelers. With modern interiors, a fully equipped kitchen, and proximity to cafes and transport
+                    hubs, it's your home away from home.</p>
+
+                <hr>
+
+                <h5 class="fw-bold">What this place offers</h5>
+                <div class="row">
+                    <div class="col-6 mt-4"><i class="fa-solid fa-wifi"></i> Wifi</div>
+                    <div class="col-6 mt-4"><i class="fa-solid fa-city"></i> City skyline view</div>
+                    <div class="col-6 mt-4"><i class="fa-solid fa-utensils"></i> kitchen</div>
+                    <div class="col-6 mt-4"><i class="fa-solid fa-car"></i> Free parking</div>
+                    <div class="col-6 mt-4"><i class="fa-solid fa-paw"></i> Pets allowed</div>
+                    <div class="col-6 mt-4"><i class="fa-solid fa-tv"></i> TV</div>
+                </div>
+
+                <hr>
+
+                <h5 class="fw-bold">Reviews</h5>
+                <p><strong>⭐ 4.8</strong> · 18 reviews</p>
+                <div class="border rounded p-3 my-2">
+                    <strong><img src="https://www.indiaunveiled.in/sites/default/files/blog/renuka.jpg" width="50px" height="50px" style="border-radius: 50%;" alt=""> Ayushi</strong> <span class="text-muted">– July 2025</span>
+                    <p>Great stay! Clean and cozy place, just as described. Rahul was a responsive and helpful host.</p>
+                </div>
+                <div class="border rounded p-3 my-2">
+                    <strong><img src="https://preview.redd.it/n17f9apmtdk11.jpg?auto=webp&s=8f05cc3eb85a00a6740e03277b8676ce6e53c6e6" width="50px" height="50px" style="border-radius: 50%;" alt=""> Rahul</strong> <span class="text-muted">– June 2025</span>
+                    <p>Location was perfect, and check-in was seamless. Would love to stay again!</p>
+                </div>
+            </div>
+
+            <!-- Booking Card -->
+            <div class="col-md-4">
+                <div class="border rounded p-4 shadow-sm sticky-top" style="top: 90px;">
+                    <h3 class="fw-bold">₹3,500 <small class="text-muted fw-normal">for 2 nights</small></h3>
+                    <div class="my-3">
+                        <label class="form-label">Check-in</label>
+                        <input type="date" class="form-control mb-2">
+                        <label class="form-label">Check-out</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Guests</label>
+                        <select class="form-select">
+                            <option>1 guest</option>
+                            <option>2 guests</option>
+                            <option>3 guests</option>
+                            <option>4 guests</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-danger w-100">Reserve</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="d-flex justify-content-between container">
+            <div>
+                <h5 class="mb-2 mt-5" style="font-weight: 600; margin-left: 20px;">Support</h5>
+                <ul class="list-unstyled support-list">
+                    <li><a href="">Help Centre</a></li>
+                    <li><a href="">AirCover</a></li>
+                    <li><a href="">Anti-discrimination</a></li>
+                    <li><a href="">Disability support</a></li>
+                    <li><a href="">Cancellation options</a></li>
+                    <li><a href="">Report neighbourhood concern</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="mb-2 mt-5" style="font-weight: 600; margin-left: 20px;">Hosting</h5>
+                <ul class="list-unstyled hosting-list">
+                    <li><a href="">Airbnb your home</a></li>
+                    <li><a href="">Airbnb your expirence</a></li>
+                    <li><a href="">Airbnb your service</a></li>
+                    <li><a href="">AirCover for Hosts</a></li>
+                    <li><a href="">Hosting resources</a></li>
+                    <li><a href="">Community forum</a></li>
+                    <li><a href="">Hosting responsibly</a></li>
+                    <li><a href="">Join a free Hosting class</a></li>
+                    <li><a href="">Find a co-host</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="mb-2 mt-5" style="font-weight: 600; margin-left: 20px;">Airbnb</h5>
+                <ul class="list-unstyled airbnb-list">
+                    <li><a href="">2025 Summer Release</a></li>
+                    <li><a href="">Newsroom</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Investors</a></li>
+                    <li><a href="">Airbnb.org emergency stays</a></li>
+                </ul>
+            </div>
+            <div></div>
+        </div>
+        <div class="line"></div>
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="mt-5 ms-5 footer-bnb">
+                © 2025 Airbnb, Inc. · <a href="">Privacy</a> · <a href="">Terms</a> · <a href="">Sitemap</a> · <a href="">Company details</a>
+            </div>
+            <div class="mt-5 me-5 gap-3 d-flex justify-content-between" style="font-weight: 500;">
+                <div><i class="fa-solid fa-earth-asia"></i> English(IN)</div>
+                <div>₹ INR</div>
+                <div><i class="fa-brands fa-facebook"></i></div>
+                <div><i class="fa-brands fa-instagram"></i></div>
+                <div><i class="fa-brands fa-x-twitter"></i></div>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl"> <!-- Wider modal -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Language and Region</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row g-3">
+                            <!-- Column items -->
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>English</strong><br><span class="text-muted">India</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>English</strong><br><span class="text-muted">United States</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>English</strong><br><span class="text-muted">United
+                                            Kingdom</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>हिन्दी</strong><br><span class="text-muted">भारत</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>বাংলা</strong><br><span class="text-muted">বাংলাদেশ</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>தமிழ்</strong><br><span class="text-muted">இந்தியா</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>తెలుగు</strong><br><span class="text-muted">భారతదేశం</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>اردو</strong><br><span class="text-muted">پاکستان</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>中文</strong><br><span class="text-muted">中国</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>日本語</strong><br><span class="text-muted">日本</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Français</strong><br><span class="text-muted">France</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Deutsch</strong><br><span class="text-muted">Deutschland</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Español</strong><br><span class="text-muted">España</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Português</strong><br><span class="text-muted">Brasil</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Русский</strong><br><span class="text-muted">Россия</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>한국어</strong><br><span class="text-muted">대한민국</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Italiano</strong><br><span class="text-muted">Italia</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Türkçe</strong><br><span class="text-muted">Türkiye</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>ไทย</strong><br><span class="text-muted">ประเทศไทย</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Polski</strong><br><span class="text-muted">Polska</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Čeština</strong><br><span class="text-muted">Česká
+                                            republika</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Suomi</strong><br><span class="text-muted">Suomi</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Svenska</strong><br><span class="text-muted">Sverige</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Nederlands</strong><br><span class="text-muted">Nederland</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Українська</strong><br><span class="text-muted">Україна</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>Română</strong><br><span class="text-muted">România</span></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="language-box border rounded p-2 h-100">
+                                    <a><strong>العربية</strong><br><span class="text-muted">مصر</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
